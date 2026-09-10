@@ -1,0 +1,17 @@
+class branch:
+    def courses(parent):
+        print("CSE Course")
+class child1:
+    def study(self):
+        print("AIML Course")
+class child2:
+    def study(self):
+        print("DS Course")
+
+c1=child1()
+d1=child2()
+p=branch()
+p.courses()
+c1.study()
+d1.study
+      

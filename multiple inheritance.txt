@@ -1,0 +1,14 @@
+class animal:
+   def eat(self):
+      print("Animals can eat")
+class animal_1:
+   def walk(self):
+      print("Can walk")
+class child(animal,animal_1):
+   def sleep(self):
+      print("Sleepy")
+c1=child()
+c1.eat()
+c1.walk()
+c1.sleep()
+      

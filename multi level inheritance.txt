@@ -1,0 +1,16 @@
+class animal:
+   def eat(self):
+      print("Animals can eat")
+class dog(animal):
+   def sleep(self):
+      print("Dog sleeps")
+class puppy(dog):
+   def speak(slef):
+      print("puppy")
+p1=animal()
+p1.eat()
+p2=dog()
+p2.sleep()
+p3=puppy()
+p3.speak()
+      

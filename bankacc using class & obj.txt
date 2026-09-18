@@ -1,0 +1,17 @@
+class BankAccount:
+    Name="rifath"
+    Acc_num=1234
+    Balance=3000
+    def deposit(self):
+        money=int(input("Enter money: "))
+        money=money+self.Balance
+        print(money)
+    def withdrawl(self):
+        cash=int(input("Enter cash: "))
+        print(cash)
+    def display_balance(self):
+        print(self.Balance)
+b=BankAccount()
+b.deposit()
+b.withdrawl()
+b.display_balance()

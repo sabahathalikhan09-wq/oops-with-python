@@ -1,0 +1,7 @@
+class parent:
+    name="father"
+    age=44
+p=parent()
+print(p.name)
+print(p.age)
+ 

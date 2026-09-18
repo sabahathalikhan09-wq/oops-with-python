@@ -1,0 +1,11 @@
+class student:
+    _marks=99
+    def show(self):
+        print(self._marks)
+class result(student):
+    def exam_result(self):
+        print(self._marks)
+s=student()
+r=result()
+s.show()
+r.exam_result()

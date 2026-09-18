@@ -1,0 +1,7 @@
+class student:
+    name="Saba"
+    age=19
+    def get(self):
+        return self.name
+p=student()
+print(p.get())

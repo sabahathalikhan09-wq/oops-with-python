@@ -1,0 +1,6 @@
+from abc import ABC,abstractclassmethod
+class animal(ABC):
+    def eat(self):
+        print("Dogsss")
+d=animal()
+d.eat()

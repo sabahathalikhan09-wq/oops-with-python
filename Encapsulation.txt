@@ -1,0 +1,9 @@
+class student:
+    name="Saba"
+    age=18
+    def study(self):
+        print("Studying!!")
+s=student()
+s.study()
+print(s.name)
+print(s.age)

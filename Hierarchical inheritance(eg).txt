@@ -1,0 +1,14 @@
+class Vehicle:
+    Brand_name = "Mahindra"
+    Model = "Thar"
+class car(Vehicle):
+    def display_details(self):
+        print("Thar is car")
+class bike(Vehicle):
+    def display_details(self):
+        print("royal enfield")
+v=Vehicle()
+c=car()
+c.display_details()
+b=bike()
+b.display_details()
